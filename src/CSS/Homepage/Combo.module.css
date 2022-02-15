@@ -1,0 +1,176 @@
+.mainBg{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-family: 'Poppins';
+}
+.boldHeader{
+    font-weight: bold;
+}
+.combo{
+    border: 1px solid black;
+    font-size: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#7c0b24,#290311);
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.combo1{
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+   
+    margin: 20px 20px 20px 50px;
+    width: 95%;
+    border-radius: 20px;
+    background-color:#f1f1f1 ;
+    color: white;
+    padding-top: 35px;
+    transform: translateY(-40px);
+}
+
+.heading{
+    color:#bd1e2e ;
+    padding-left: 20px;
+    font-size: larger;
+    margin: 20px;
+}
+.content{
+    color: black;
+    font-size: 15px;
+    /* padding-left: 20px; */
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+   
+    display: table;
+    width: 95%;
+
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 30px;
+}
+.cardHeader{
+    margin-top: 30px;
+color: black;
+text-align: center;
+font-size: 44px;
+}
+/* style={{color:"black",textAlign:"center",fontWeight:"bold",fontSize:"45px"}} */
+
+.cardDollar{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+/* style={{textAlign:"center",color:"black",fontSize:"40px",fontWeight:"bolder"}} */
+
+.cardPrice{
+text-align: center;
+color: #bd1e2e;
+font-size: 100px;
+font-weight: 600;
+margin-top: -30px;
+}
+/* style={{textAlign:"center",color:"#bd1e2e",fontSize:"65px",fontWeight:"bolder"}} */
+.cardDiscount{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+/* style={{color:"grey",fontWeight:"bold",fontSize:"30px"}} */
+.cardStrike{
+    color: #b0b0b0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* style={{textAlign:"center",color:"grey",fontSize:"20px"}} */
+.cardOffer{
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 15px;
+}
+/* style={{textAlign:"center",color:"black",fontSize:"30px"}} */
+.cardLive{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.tag{
+    width: 50%;
+    background-image: linear-gradient(to right,#7c0b24,#290311);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+   
+}
+.cardButton{
+    background-color: #bd1e2e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 30px;
+}
+ .color{
+    color:#bd1e2e ;
+   font-size: 17px;
+ }
+ @media only screen and (max-width: 800px) {
+    .heading{
+        color:#bd1e2e ;
+        padding-left: 20px;
+        font-size: medium;
+        /* margin: 20px; */
+    }
+    .content{
+        line-height: 20px;
+    }
+
+    .card{
+        background-color: white;
+        border-radius: 20px;
+        display: table;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    .combo1{
+        z-index: 1;
+        box-shadow: 0px 0px 10px rgb(39, 39, 39);
+        margin: 20px auto 20px auto;
+        width: 86%;
+        border-radius: 20px;
+        background-color:#f1f1f1 ;
+        color: white;
+        padding-top: 35px;
+        transform: translateY(-40px);
+    }
+    .combo{
+        font-size: 20px;
+    }
+    .cardHeader{
+        font-size: 50px;
+    }
+    .cardPrice{
+        font-size: 80px;
+    }
+  }
+  

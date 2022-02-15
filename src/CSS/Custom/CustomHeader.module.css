@@ -1,0 +1,80 @@
+.topsmallbg{
+    background: linear-gradient(90deg, rgba(130,15,40,1) 0%, rgba(128,12,37,1) 32%, rgba(112,10,34,1) 44%, rgba(73,6,25,1) 57%, rgba(41,3,17,1) 100%);
+    width: 100%;
+    position: relative;
+    height: 25px;
+}
+.bannerBackground{
+    background-image:url('../../Images/customBanner.webp');
+   
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+    
+}
+.bannerHeading{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    padding-right:10%;
+    padding-top: 15%;
+
+    line-height: 40px;
+}
+.bannerTitle{
+    color: #cfcecd;
+    padding-top: 5%;
+    padding-right: 35%;
+    padding-bottom: 25%;
+    line-height: 30px;
+}
+.bannerPoints{
+    color: white;
+    margin:4% 5% 18% 0%;
+}
+.bannerPointsType{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.bannerPointsSize{
+    font-size: 20px;
+     padding-top: 5px;
+}
+.bannerPointsIcon{
+    color: #bd1e2e;
+    font-size: 30px;
+    margin-top: -1px;
+    margin-right: 5px;
+}
+.bannerButton{
+    background-color: #bd1e2e;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 9px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    font-weight: 700;
+    border-style: none;
+    width: 210px;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+
+    .bannerHeading{
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        padding-right:10%;
+        padding-top: 15%;
+    }
+    .bannerTitle{
+    color: #cfcecd;
+    padding-top: 2.5%;
+    padding-right: 24%;
+}
+}

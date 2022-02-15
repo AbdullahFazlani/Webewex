@@ -1,0 +1,65 @@
+.topsmallbg{
+    background: linear-gradient(90deg, rgba(130,15,40,1) 0%, rgba(128,12,37,1) 32%, rgba(112,10,34,1) 44%, rgba(73,6,25,1) 57%, rgba(41,3,17,1) 100%);
+    width: 100%;
+    position: relative;
+    height: 25px;
+}
+.bannerBackground{
+    background-image:url('../../Images/aboutHeader.webp');
+   
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+    
+}
+.bannerHeading{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-right:30%;
+    padding-top: 15%;
+}
+.bannerTitle{
+    color: #cfcecd;
+    padding-top: 2.5%;
+    padding-right: 24%;
+}
+
+
+.bannerPoints{
+    color: white;
+    padding-top: 3.5%;
+    padding-bottom: 12%;
+}
+.bannerPointsType{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: -6px;
+}
+.bannerPointsSize{
+    font-size: 16px;
+     padding-top: 5px;
+}
+.bannerPointsIcon{
+    color: #bd1e2e;
+    font-size: 30px;
+    margin-top: -1px;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+
+    .bannerHeading{
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        padding-right:10%;
+        padding-top: 15%;
+    }
+    .bannerTitle{
+    color: #cfcecd;
+    padding-top: 2.5%;
+    padding-right: 24%;
+}
+}

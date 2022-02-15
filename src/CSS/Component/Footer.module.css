@@ -1,0 +1,56 @@
+.heading{
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+.lastCol{
+  padding: 0px 10px 10px 20% ;
+}
+.row1{
+    padding: 40px 40px 0px 40px;
+}
+/* style={{backgroundColor:"#161616",height:"75vh",color:"white",overflow:"hidden"}} */
+.footerBg{
+    background-color: #161616;
+    font-family: "Poppins";
+    color: white;
+    overflow: hidden;
+}
+.footerPadding{
+    padding-top: 20px;
+}
+/* style={{backgroundColor:"#2a2a2a",marginTop:"100px",padding:"10px 20px 10px 20px"}} */
+.footerEnd{
+    background-color: #2a2a2a;
+    margin-top: 100px;
+    padding:10px 20px 10px 20px;
+    margin-bottom: 0px;
+}
+.footerLogo{
+   float: right;
+   margin-top: -0.5%;
+   color: transparent;
+}
+.hideLink{
+    text-decoration: none;
+    color: white;
+}
+.hideLink:hover{
+color: white;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+    .footerEnd{
+        font-size: 7.2px;
+        padding:5px 5px 5px 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footerLogo{
+            display: none;
+    }
+
+    .lastCol{
+        padding: 0px 10px 10px 0px ;
+      }
+}

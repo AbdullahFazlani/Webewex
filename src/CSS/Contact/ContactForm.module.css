@@ -1,0 +1,96 @@
+.contact{
+    padding-left: 12%;
+    padding-right: 10%;
+    font-family: "Poppins";
+}
+.contactName{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contactDesc{
+    padding-top: 5%;
+}
+
+.contactAddress{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 25px;
+    color: #bd1e2e;
+    font-weight: 600;
+}
+.formBg{
+    background-color: #bd1e2e;
+    width: 100%;
+    padding:5% 10% 5% 5%;
+    font-family: "Poppins";
+    color: white;
+}
+.formHeader{
+   
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}
+
+.formTitle{
+    padding-top: 5%;
+}
+
+.input{
+    margin-bottom: 5%;
+    padding:2%;
+    width: 100%;
+}
+
+.textarea{
+    width: 100%;
+    height: 90%;
+    color: #868282  ;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.checkText{
+        padding-left: 2%;
+        height: 10px;
+        /* display: inline-block; */
+}
+.check{
+    padding-top: 5%;
+}
+
+.form{
+    padding-top: 5%;
+}
+
+.button{
+    border: none;
+    text-transform: uppercase;
+    padding:2% 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 5%;
+    color: #bd1e2e;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer{
+    position: relative;
+    margin-top: 50%;
+}
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+
+
+    .textarea{
+        width: 100%;
+        height: 100%;
+        color: #868282  ;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .footer{
+        margin-top: 220%;
+    }
+}

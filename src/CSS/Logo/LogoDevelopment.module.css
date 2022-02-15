@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.color{
+    color: #bc1e2d;
+}
+.image{
+    height: 90%;
+    width: 100%;
+}
+
+.space{
+    margin: 2.5%;
+}

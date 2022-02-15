@@ -1,0 +1,97 @@
+.portfolioFont{
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+
+.PortFolioMenu{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 25px;
+   
+  }
+
+.PortListItemColor{
+    color:#bc1e2d;
+} 
+.PortListItemIcon{
+    font-size: 30px;
+}
+.PortListItemBorder{
+    border-bottom:  2px solid #bc1e2d;
+}
+  .img{
+        width: 95%;
+    
+      }
+     
+  .MenuButton{
+      text-decoration: none;
+      border: none;
+      background-color: transparent;
+      font-weight: 600;
+      margin-left: 3%;
+      /* margin-right: 20px; */
+  }
+  /* style={{textAlign:"center",padding:"20px",fontSize:"30px"}} */
+  .loadButton{
+      display: none;
+text-align: center;
+padding: 20px;
+font-size: 30px;
+  }
+  .pSection{
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 !important;
+    width: 32%;
+  }
+  
+  .pSection:hover .singlespan {
+    display: block;
+    transition: 0.3s ease-in;
+    width: 95%;
+      position: absolute;
+      left: 0;
+      color: transparent;
+      bottom: 0;
+      box-shadow: inset 0px -50px 25px 0px rgb(208 24 52 / 80%);
+      height: 70px;
+  }
+  /* .pSection .singlespan {
+    /* display: none; */
+  
+  .pSection .singlespan {
+    width: 95%;
+      position: absolute;
+      left: 0;
+      color: transparent;
+      bottom: 0;
+      /* box-shadow: inset 0px -34px 15px -5px rgb(208 24 52 / 80%); */
+      height: 50px;
+  }
+
+  @media only screen and (max-width: 767px) and (min-width: 300px) {
+
+  .MenuButton{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    margin-left: -2%;
+    font-size: 12.5px;
+    /* margin-right: 20px; */
+}
+
+.pSection{
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 0px;
+    padding: 0 !important;
+    width: 32%;
+  }
+  }
+  

@@ -1,0 +1,95 @@
+.mapBackground{
+    background-image:url('../../Images/mapImage.png');
+   
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    padding: 6% 0% 6% 5%;
+    margin: 8% 0%;
+}
+.mapHeading{
+    font-size: 35px;
+    font-weight: 600;
+}
+.mapTitle{
+    font-size: 25px ;
+    color: #bd1e2d;
+    font-weight: 600;
+}
+.color{
+    color: #bd1e2d;
+}
+.buttonSection{
+    margin-top:3%;
+   padding-bottom: 3%;
+}
+.buttonSelect{
+    background-color: #bd1e2d;
+    color: white;
+    border: none;
+    padding: 1.2% 2%;
+    border-radius: 50px;
+    font-size: 25px;
+    width: 25%;
+}
+.buttonChat{
+    background-color: transparent;
+    color: #bd1e2d;
+    border: none;
+    padding: 2%;
+    padding: 1.2% 2%;
+    border-radius: 50px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 2%;
+    width: 25%;
+}
+.call{
+    font-size: 25px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+    .mapHeading{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .mapTitle{
+        font-size: 15px ;
+        color: #bd1e2d;
+        font-weight: 600;
+    }
+    
+.buttonSection{
+    margin-top:7%;
+   padding-bottom: 3%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.buttonSelect{
+    background-color: #bd1e2d;
+    color: white;
+    border: none;
+    padding: 2% 2%;
+    border-radius: 50px;
+    font-size: 15.5px;
+    width: 45%;
+}
+.buttonChat{
+    background-color: transparent;
+    color: #bd1e2d;
+    border: none;
+    padding: 2%;
+    padding: 2% 2%;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 2%;
+    width: 42%;
+}
+.call{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+}
